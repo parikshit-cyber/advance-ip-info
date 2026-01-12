@@ -9,27 +9,27 @@ It enriches IP addresses with network metadata, abuse reputation, OS hints, and 
 
 ### ✨ Features
 
-🌐 IP geolocation with interactive maps
+#### 🌐 IP geolocation with interactive maps
 
-🔐 VPN / Proxy / Hosting detection
+#### 🔐 VPN / Proxy / Hosting detection
 
-🧠 TTL-based OS fingerprinting
+#### 🧠 TTL-based OS fingerprinting
 
-⚠️ AbuseIPDB threat intelligence
+#### ⚠️ AbuseIPDB threat intelligence
 
-📂 Single & batch IP analysis
+#### 📂 Single & batch IP analysis
 
-📊 Risk scoring (Low / Medium / High)
+#### 📊 Risk scoring (Low / Medium / High)
 
 ### 🛠️ Tech Stack
 
-Python 3.8+
+#### Python 3.8+
 
-ipinfo
+#### ipinfo
 
-requests
+#### requests
 
-folium
+#### folium
 
 📦 Installation
 git clone https://github.com/parikshit-cyber/advance-ip-info.git
@@ -46,30 +46,30 @@ IPINFO_TOKEN = "YOUR_IPINFO_TOKEN"
 ABUSEIPDB_API_KEY = "YOUR_ABUSEIPDB_API_KEY"
 
 ### 🚀 Usage
-python Ipscan.py
+#### python Ipscan.py
 
-Modes
+#### Modes
 
-Single IP Scan → Generates map.html
+#### Single IP Scan → Generates map.html
 
-Batch IP Scan → Generates batch_map.html
+#### Batch IP Scan → Generates batch_map.html
 
-Open the HTML files in a browser to view results.
+#### Open the HTML files in a browser to view results.
 
 ### 📊 Risk Logic
 
-🟢 Low – Clean IP
+#### 🟢 Low – Clean IP
 
-🟠 Medium – Abuse score ≥ 20
+#### 🟠 Medium – Abuse score ≥ 20
 
-🔴 High – VPN detected or abuse score ≥ 50
+#### 🔴 High – VPN detected or abuse score ≥ 50
 
 ### ⚖️ Disclaimer
 
-For defensive security, OSINT, research, and incident response only.
+#### For defensive security, OSINT, research, and incident response only.
 Unauthorized or malicious use is strictly prohibited.
 
 ### ⭐ Author
 
-Parikshit Singh Baghel
+#### Parikshit Singh Baghel
 Cybersecurity • OSINT • DFIR • Threat Intelligence
