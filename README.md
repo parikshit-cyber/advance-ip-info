@@ -1,13 +1,13 @@
-🌍 Advanced IP Intelligence & Network Forensics
+# 🌍 Advanced IP Intelligence & Network Forensics
 
-Geolocation • VPN Detection • OS Fingerprinting • Threat Intelligence
+## Geolocation • VPN Detection • OS Fingerprinting • Threat Intelligence
 
 A lightweight Python-based IP intelligence and threat analysis tool for OSINT, incident response, SOC operations, and cybercrime investigations.
 It enriches IP addresses with network metadata, abuse reputation, OS hints, and interactive maps.
 
-Built by Parikshit Singh Baghel
+## Built by Parikshit Singh Baghel
 
-✨ Features
+### ✨ Features
 
 🌐 IP geolocation with interactive maps
 
@@ -21,7 +21,7 @@ Built by Parikshit Singh Baghel
 
 📊 Risk scoring (Low / Medium / High)
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Python 3.8+
 
@@ -45,7 +45,7 @@ IPINFO_TOKEN = "YOUR_IPINFO_TOKEN"
 
 ABUSEIPDB_API_KEY = "YOUR_ABUSEIPDB_API_KEY"
 
-🚀 Usage
+### 🚀 Usage
 python Ipscan.py
 
 Modes
@@ -56,7 +56,7 @@ Batch IP Scan → Generates batch_map.html
 
 Open the HTML files in a browser to view results.
 
-📊 Risk Logic
+### 📊 Risk Logic
 
 🟢 Low – Clean IP
 
@@ -64,12 +64,12 @@ Open the HTML files in a browser to view results.
 
 🔴 High – VPN detected or abuse score ≥ 50
 
-⚖️ Disclaimer
+### ⚖️ Disclaimer
 
 For defensive security, OSINT, research, and incident response only.
 Unauthorized or malicious use is strictly prohibited.
 
-⭐ Author
+### ⭐ Author
 
 Parikshit Singh Baghel
 Cybersecurity • OSINT • DFIR • Threat Intelligence
